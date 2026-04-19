@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-const API_BASE_URL = 'https://tajulcms.developerdadakan.com/api';
+const API_BASE_URL = 'https://api.allorigins.win/raw?url=' + encodeURIComponent('https://tajulcms.developerdadakan.com/api');
 const STORAGE_BASE_URL = 'https://tajulcms.developerdadakan.com/storage/';
 
 export interface Project {
