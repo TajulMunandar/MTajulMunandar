@@ -121,7 +121,7 @@ export const usePortfolioApi = () => {
         setError(null);
 
         const [allResponse, profileResponse] = await Promise.all([
-          fetch(`${API_BASE_URL}/`),
+          fetch(`${API_BASE_URL}`),
           fetch(`${API_BASE_URL}/profile`),
         ]);
 
